@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="500.0" prefWidth="573.0" style="-fx-background-color: #27DDC8;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zkouskaprihlaseni3.PrihlaseniController">
+   <children>
+      <TextField fx:id="tf_password" layoutX="341.0" layoutY="304.0" promptText="Heslo" />
+      <Button fx:id="prihlasit" defaultButton="true" layoutX="356.0" layoutY="346.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="119.0" style="-fx-background-color: A8EEE6;-fx-cursor: hand;" text="Přihlásit se">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="204.0" fitWidth="232.0" layoutX="316.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@logo.png" />
+      </image>
+      </ImageView>
+      <ComboBox fx:id="cbox_ucitele" layoutX="45.0" layoutY="50.0" prefWidth="150.0" promptText="Učitelé" style="-fx-cursor: hand;" />
+      <Label fx:id="label_ucitel" layoutX="350.0" layoutY="250.0" prefHeight="28.0" prefWidth="132.0" style="-fx-background-color: #27DDC8;" textAlignment="CENTER">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_zmenitHeslo" layoutX="366.0" layoutY="383.0" mnemonicParsing="false" prefHeight="15.0" prefWidth="99.0" style="-fx-background-color: A8EEE6;-fx-cursor: hand;" text="Změnit heslo">
+         <font>
+            <Font name="Arial Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_spatneHeslo" layoutX="342.0" layoutY="287.0" textFill="RED" />
+   </children>
+</AnchorPane>

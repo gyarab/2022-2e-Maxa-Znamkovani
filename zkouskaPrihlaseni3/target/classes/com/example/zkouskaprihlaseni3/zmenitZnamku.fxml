@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="271.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.zkouskaprihlaseni3.ZmenitZnamkuController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff880049" height="137.0" layoutX="19.0" layoutY="63.0" stroke="BLACK" strokeType="INSIDE" width="247.0" />
+      <Button fx:id="button_zmenitZnamku" alignment="CENTER" contentDisplay="CENTER" layoutX="109.0" layoutY="211.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="73.0" style="-fx-background-color: #F58E03; -fx-border-color: #000000;-fx-cursor: hand;" text="Upravit">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Button>
+      <TextField fx:id="tf_test" layoutX="119.0" layoutY="82.0" prefHeight="25.0" prefWidth="114.0" text="test" />
+      <ComboBox fx:id="cmbox_znamka" layoutX="119.0" layoutY="115.0" prefHeight="25.0" prefWidth="95.0" promptText="Známka" />
+      <ComboBox fx:id="cmbox_hodnota" layoutX="119.0" layoutY="150.0" prefHeight="25.0" prefWidth="95.0" promptText="Hodnota" />
+      <Label fx:id="label_student" alignment="CENTER" layoutX="22.0" layoutY="25.0" prefHeight="25.0" prefWidth="247.0" text="Tomas Midgal">
+         <font>
+            <Font name="Arial Bold" size="19.0" />
+         </font></Label>
+      <Label alignment="CENTER_RIGHT" layoutX="72.0" layoutY="87.0" prefHeight="16.0" prefWidth="37.0" text="Test:" textAlignment="RIGHT">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="47.0" layoutY="120.0" prefHeight="16.0" prefWidth="62.0" text="Známka:" textAlignment="RIGHT">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="47.0" layoutY="155.0" text="Hodnota:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>
